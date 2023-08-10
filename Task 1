@@ -1,1 +1,130 @@
+//Html code
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> The Tribute Website | A.P.J Abdul Kalam</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="content">
+                <section class="top_section">
+                    <div class="img_container">
+                        <img src="img/APJ-Abdul-Kalam.png" alt="Tribute" />
+                    </div>
+                    <div>
+                        <h1>A.P.J ABDUL KALAM</h1>
+                        <h4>1931 - 2015</h4>
+                    </div>
+                </section>
+                <section class="about_section">
+                    <h2>Missile Man of India</h2>
+                    <p><b>A.P.J. Abdul Kalam</b>, in full Avul Pakir Jainulabdeen Abdul Kalam, (born October 15, 1931, Rameswaram, India—died July 27, 2015, Shillong), Indian scientist and politician who played a leading role in the development of India’s missile and nuclear weapons programs. He was president of India from 2002 to 2007.
+
+                      Kalam earned a degree in aeronautical engineering from the Madras Institute of Technology and in 1958 joined the Defence Research and Development Organisation (DRDO). In 1969 he moved to the Indian Space Research Organisation, where he was project director of the SLV-III, the first satellite launch vehicle that was both designed and produced in India. Rejoining DRDO in 1982, Kalam planned the program that produced a number of successful missiles, which helped earn him the nickname <b>“Missile Man</b>.” Among those successes was Agni, India’s first intermediate-range ballistic missile, which incorporated aspects of the SLV-III and was launched in 1989.</p>
+                </section>
+                <section class="achievements">
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li> Abdul Kalam to design India's first rocket which successfully sent a satellite Rohini, into orbit on 18th July 1980.</li>
+                        <li>Kalam was appointed as the CEO of Integrated Guided Missile Development Programme (IGMDP) in 1983.</li>
+                        <li>He successfully led the development of Agni and Prithvi, the indigenous guided missiles. </li>
+                        <li> In 1992, he was appointed as the Scientific Adviser to the Defence Minister.</li>
+                        <li>With the rank of a cabinet minister, in 1999, he was appointed as the Principal Scientific Adviser to the Government of India.</li>
+                        <li>The 2002 Indian presidential election was held on 15 July 2002 to elect President of India.</li>
+                        <li>Dr APJ Abdul Kalam | Defence Research and Development Organisation - DRDO, Ministry of Defence,Government of India.</li>                       
+                    </ul>
+                </section> 
+                <footer>
+                    <p>
+                    Read more about A.P.J Abdul Kalam on <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">Wikipedia</a>
+                </p>
+            </footer>
+                   </div>
+        </div>
+    </body>
+</html>
+
+//Css code
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container{
+    background-color: white ;
+    min-height: 100vh;
+    border: 10px solid;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.top_section h4{
+    font-size: 20px;
+    text-align:end ;
+
+}
+.img_container{
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.img container
+img{
+    width: 300px;
+    height: 320px;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.achievements_section{
+    margin-top: 50px;
+}
+.achievements_section h3{
+    margin-bottom: 20px;
+}
+.achievements_section ul{
+    margin-left: 50px;
+}
+.achievements_section li{
+    margin-bottom: 15px;
+}
+footer{
+    margin: 50px;
+}
+footer{
+    text-align: end;
+}
